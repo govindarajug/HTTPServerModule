@@ -1,4 +1,4 @@
 const { startServer } = require('./server.js');
-const { createHandler } = require('./router.js');
+const { router } = require('./router.js');
 
-module.exports = { startServer, createHandler };
+module.exports = { startServer, router };
