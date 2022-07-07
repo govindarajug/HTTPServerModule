@@ -5,6 +5,7 @@ const parseUrl = (request, response) => {
 const router = (handlers) => {
   return (request, response) => {
     parseUrl(request, response);
+    console.log(request.method, request.url.pathname);
     for (const handler of handlers) {
       if (handler(request, response)) {
         return true;
