@@ -1,5 +1,5 @@
 {
-  "name": "httpserver",
+  "name": "httpServer",
   "version": "1.0.0",
   "description": "module to run httpServer and router",
   "main": "index.js",
